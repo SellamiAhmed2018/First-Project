@@ -11,7 +11,7 @@ let pets = [
   });
   
 
-  const dogs = pets.filter(element => {return element.type==="dog"});
+  const dogs = pets.filter(element => element.type==="dog");
   
-  const jasper = pets.find(element =>{return element.name=="Jasper"});
+  const jasper = pets.find(element => element.name=="Jasper");
   console.log(`Jasper is  ${jasper.age} years old`);
