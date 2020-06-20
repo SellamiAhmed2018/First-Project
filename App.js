@@ -7,25 +7,25 @@ class App extends Component {
   render() {
     return (
       <form>
-        <div class="form-group">
+        <div className="form-group">
           <label for="email">Email address:</label>
-          <input type="email" class="form-control" id="email" />
+          <input type="email" className="form-control" id="email" />
         </div>
-        <div class="form-group">
+        <div className="form-group">
           <label for="username">UserName :</label>
-          <input type="text" class="form-control" id="user" />
+          <input type="text" className="form-control" id="user" />
         </div>
 
-        <div class="form-group">
+        <div className="form-group">
           <label for="pwd">Password:</label>
-          <input type="password" class="form-control" id="pwd" />
+          <input type="password" className="form-control" id="pwd" />
         </div>
-        <div class="checkbox">
+        <div className="checkbox">
           <label>
             <input type="checkbox" /> Remember me
           </label>
         </div>
-        <button type="submit" class="btn btn-default">
+        <button type="submit" className="btn btn-default">
           Submit
         </button>
       </form>
