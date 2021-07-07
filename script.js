@@ -6,7 +6,7 @@ let pets = [
   
   const getAge = (pet)=>{return new Date().getFullYear()-pet.bornOn};
   
-  const petWithAge = pets.forEach(element => {
+ pets.forEach(element => {
       element.age = getAge(element);
   });
   
